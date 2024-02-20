@@ -9,6 +9,12 @@
 
 ## Daftar Isi
 1. [Soal 1](#1-buatlah-tulisan-tentang-langkah-langkah-instalasi-sistem-operasi-debian-anda-bisa-menggunakan-aplikasi-virtualisasi-seperti-virtualbox-vmware-player-vmware-fusion-mac-dls-kebutuhan-sistem-adalah-sebagai-berikut-)
+2. [Soal 2](#2-buat-ringkasan-tentang-perbedaan-dari-debian-12-bookworm-dengan-debian-11-bullseye-versi-kernel-kebutuhan-sistem-penerapan-systemd-dan-perbedaan-packagenya-dalam-bentuk-tabel-)
+3. [Soal 3](#3-jelaskan-fungsi-dari-file-etcgroups-beserta-formatnya)
+4. [Soal 4](#4-jelaskan-perbedaan-penggunaan-perintah-su-dengan-su-)
+5. [Soal 5](#5-jelaskan-fungsi-dari-sudo-)
+6. [Soal 6](#6-jelaskan-langkah-langkah-penambahan-user-anda-sebagai-user-sudo-gunakan-perintah-su-lalu-setelah-masuk-sebagai-root-jalankan-perintah-visudo-tambahkan-user-anda-di-bawah-user-root-pada-bagian--user-privilege-specification-)
+7. [Referensi](#referensi)
 # Laporan Tugas 1 - SysAdmin
 
 
@@ -36,7 +42,7 @@
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.003.jpeg)
 
 4. Bagian **Virtual Hard Disk** setting **Disk Size** sebesar **26,5 GB** yang nantinya akan dibagi menjadi 3 partisi, kemudian![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.004.jpeg) **Next**.
-4. Setelah selesai, pada bagian **Summary** click tombol **Finish**.
+5. Setelah selesai, pada bagian **Summary** click tombol **Finish**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.005.jpeg)
 
@@ -166,7 +172,7 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.052.jpeg)
 
-2. Buat ringkasan tentang perbedaan dari Debian 12 (bookworm) dengan Debian 11 (bullseye) : versi kernel, kebutuhan sistem, penerapan systemd dan perbedaan packagenya (dalam bentuk tabel) !
+### 2. Buat ringkasan tentang perbedaan dari Debian 12 (bookworm) dengan Debian 11 (bullseye) : versi kernel, kebutuhan sistem, penerapan systemd dan perbedaan packagenya (dalam bentuk tabel) !
 
    **Jawab:**
 
@@ -216,7 +222,7 @@
 <tr><td colspan="1" valign="top"><b>Vim</b></td><td colspan="1" valign="top">8\.2</td><td colspan="1" valign="top">9\.0</td></tr>
 </table>
 
-3. Jelaskan fungsi dari file "/etc/groups" beserta formatnya! **Jawab:**
+### 3. Jelaskan fungsi dari file "/etc/groups" beserta formatnya! **Jawab:**
 
    File /etc/group adalah file yang menyimpan informasi tentang grup pengguna pada sistem Linux.
 
@@ -239,7 +245,7 @@ dimana informasi dari format tersebut adalah sebagai berikut : nama\_grup:sandi:
 
    tersebut.
 
-4. Jelaskan perbedaan penggunaan perintah "su" dengan "su -"!
+### 4. Jelaskan perbedaan penggunaan perintah "su" dengan "su -"!
 
    **Jawab:**
 
@@ -251,13 +257,13 @@ dimana informasi dari format tersebut adalah sebagai berikut : nama\_grup:sandi:
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.054.png)
 
-5. Jelaskan fungsi dari "sudo" !
+### 5. Jelaskan fungsi dari "sudo" !
 
    **Jawab:**
 
 Perintah **sudo** berfungsi untuk menjalankan perintah yang mengandalkan root untuk kebutuhan hak akses data. Sistem akan meminta inputan password, setiap user biasanya menjalankan perintah selama 15 menit / sesi.
 
-6. Jelaskan langkah-langkah penambahan user anda sebagai user sudo ! Gunakan perintah "su -" lalu setelah masuk sebagai root, jalankan perintah "visudo". Tambahkan user anda di bawah user root pada bagian " # User privilege specification" **Jawab:**
+### 6. Jelaskan langkah-langkah penambahan user anda sebagai user sudo ! Gunakan perintah "su -" lalu setelah masuk sebagai root, jalankan perintah "visudo". Tambahkan user anda di bawah user root pada bagian " # User privilege specification" **Jawab:**
 1. Masuk sebagai root
     1. Buka terminal.
     1. Jalankan perintah su - untuk masuk sebagai root.
@@ -286,14 +292,16 @@ Perintah **sudo** berfungsi untuk menjalankan perintah yang mengandalkan root un
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.059.jpeg)
 
-[https://www.hostinger.co.id/tutorial/perintah-dasar-linux#:~:text=Perintah%20Linux% 20su%20atau%20'switch,saat%20user%20root%20tidak%20tersedia](https://www.hostinger.co.id/tutorial/perintah-dasar-linux#:~:text=Perintah%20Linux%20su%20atau%20'switch,saat%20user%20root%20tidak%20tersedia).
+### Referensi
 
-[https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.h tml](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.html)
+- [https://www.hostinger.co.id/tutorial/perintah-dasar-linux#:~:text=Perintah%20Linux% 20su%20atau%20'switch,saat%20user%20root%20tidak%20tersedia](https://www.hostinger.co.id/tutorial/perintah-dasar-linux#:~:text=Perintah%20Linux%20su%20atau%20'switch,saat%20user%20root%20tidak%20tersedia).
 
-[https://packages.debian.org/search?keywords=systemd ](https://packages.debian.org/search?keywords=systemd)<https://docs-cortex.paloaltonetworks.com/r/Linux-Kernel-Versions/Debian-11-x86_64>
+- [https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.h tml](https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.html)
 
-[https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A% 20512MB.,Minimum%201GHz%20Pentium%20processor](https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A%20512MB.,Minimum%201GHz%20Pentium%20processor). [https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.htm l](https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.html)
+- [https://packages.debian.org/search?keywords=systemd ](https://packages.debian.org/search?keywords=systemd)<https://docs-cortex.paloaltonetworks.com/r/Linux-Kernel-Versions/Debian-11-x86_64>
 
-https://www.jagoanhosting.com/blog/perintah-dasar-linux/#:~:text=akses%20hingga%20modifikasi.-,12.,sandi%20atau%20tidak%20sama%20sekali.[https://www.debian.org/releases/bullseye/amd64/ch03s03.en.html](https://www.debian.org/releases/bullseye/amd64/ch03s03.en.html)
+- [https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A% 20512MB.,Minimum%201GHz%20Pentium%20processor](https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A%20512MB.,Minimum%201GHz%20Pentium%20processor). [https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.htm l](https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.html)
 
-[https://www.debian.org/releases/bookworm/amd64/ch03s01.en.html ](https://www.debian.org/releases/bookworm/amd64/ch03s01.en.html)<https://www.hostinger.co.id/tutorial/perintah-dasar-linux#1_sudo_command>
+- https://www.jagoanhosting.com/blog/perintah-dasar-linux/#:~:text=akses%20hingga%20modifikasi.-,12.,sandi%20atau%20tidak%20sama%20sekali.[https://www.debian.org/releases/bullseye/amd64/ch03s03.en.html](https://www.debian.org/releases/bullseye/amd64/ch03s03.en.html)
+
+- [https://www.debian.org/releases/bookworm/amd64/ch03s01.en.html ](https://www.debian.org/releases/bookworm/amd64/ch03s01.en.html)<https://www.hostinger.co.id/tutorial/perintah-dasar-linux#1_sudo_command>
