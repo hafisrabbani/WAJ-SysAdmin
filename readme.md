@@ -338,7 +338,9 @@ akan meminta inputan password, setiap user biasanya menjalankan perintah selama 
 
 - [https://packages.debian.org/search?keywords=systemd ](https://packages.debian.org/search?keywords=systemd)<https://docs-cortex.paloaltonetworks.com/r/Linux-Kernel-Versions/Debian-11-x86_64>
 
-- [https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A% 20512MB.,Minimum%201GHz%20Pentium%20processor](https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A%20512MB.,Minimum%201GHz%20Pentium%20processor). [https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.htm l](https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.html)
+- [https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A% 20512MB.,Minimum%201GHz%20Pentium%20processor](https://www.tecmint.com/debian-installation-guide/#:~:text=Minimum%20RAM%3A%20512MB.,Minimum%201GHz%20Pentium%20processor).
+
+- [https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.htm l](https://www.debian.org/releases/bullseye/amd64/release-notes/ch-whats-new.en.html)
 
 - https://www.jagoanhosting.com/blog/perintah-dasar-linux/#:~:text=akses%20hingga%20modifikasi.-,12.,sandi%20atau%20tidak%20sama%20sekali.
 
