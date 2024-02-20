@@ -1,13 +1,17 @@
 # Tugas 1 - SysAdmin
+
 ### Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.
+
 ### Kelompok : 3
+
 ### Anggota :
+
 1. 31225000001 - Ade Hafis Rabbani
 2. 31225000002 - Nadila Aulya Salsabila Mirdianti
 3. 31225000016 - Gandi Rukmaning Ayu
 
-
 ## Daftar Isi
+
 1. [Soal 1](#1-buatlah-tulisan-tentang-langkah-langkah-instalasi-sistem-operasi-debian-anda-bisa-menggunakan-aplikasi-virtualisasi-seperti-virtualbox-vmware-player-vmware-fusion-mac-dls-kebutuhan-sistem-adalah-sebagai-berikut-)
 2. [Soal 2](#2-buat-ringkasan-tentang-perbedaan-dari-debian-12-bookworm-dengan-debian-11-bullseye-versi-kernel-kebutuhan-sistem-penerapan-systemd-dan-perbedaan-packagenya-dalam-bentuk-tabel-)
 3. [Soal 3](#3-jelaskan-fungsi-dari-file-etcgroups-beserta-formatnya)
@@ -15,10 +19,11 @@
 5. [Soal 5](#5-jelaskan-fungsi-dari-sudo-)
 6. [Soal 6](#6-jelaskan-langkah-langkah-penambahan-user-anda-sebagai-user-sudo-gunakan-perintah-su-lalu-setelah-masuk-sebagai-root-jalankan-perintah-visudo-tambahkan-user-anda-di-bawah-user-root-pada-bagian--user-privilege-specification-)
 7. [Referensi](#referensi)
+
 # Laporan Tugas 1 - SysAdmin
 
-
 ### 1. Buatlah tulisan tentang langkah-langkah instalasi sistem operasi Debian. Anda bisa menggunakan aplikasi virtualisasi seperti VirtualBox, VMWare Player, Vmware Fusion (MAC), dls. Kebutuhan sistem adalah sebagai berikut :
+
 - CPU : 2 core
 - RAM : 4096 (min)
 - HDD : 25GB dengan partisi :
@@ -33,15 +38,18 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.001.png)
 
-2. Sesuaikan **Name** dan **Folder**. Pada bagian Iso Image, pilih file **ISO Debian** yang sudah di download. Click pada bagian **Skip Unattended Installation** dan **Next**.
+2. Sesuaikan **Name** dan **Folder**. Pada bagian Iso Image, pilih file **ISO Debian** yang sudah di download. Click
+   pada bagian **Skip Unattended Installation** dan **Next**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.002.jpeg)
 
-3. Pada bagian Hardware, setting **Base Memory** minimal sebesar **4096 MB** dan **Processor** minimal sebesar **2 Core**. Kemudian pilih **Next**.
+3. Pada bagian Hardware, setting **Base Memory** minimal sebesar **4096 MB** dan **Processor** minimal sebesar **2 Core
+   **. Kemudian pilih **Next**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.003.jpeg)
 
-4. Bagian **Virtual Hard Disk** setting **Disk Size** sebesar **26,5 GB** yang nantinya akan dibagi menjadi 3 partisi, kemudian!
+4. Bagian **Virtual Hard Disk** setting **Disk Size** sebesar **26,5 GB** yang nantinya akan dibagi menjadi 3 partisi,
+   kemudian!
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.004.jpeg) **Next**.
 
@@ -75,7 +83,8 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.013.jpeg)
 
-11. Pada bagian **Konfigurasi Network** masukkan **Hostname** anda dan kosongkan untuk bagian **Domain Name**, kemudian click **Continue**.
+11. Pada bagian **Konfigurasi Network** masukkan **Hostname** anda dan kosongkan untuk bagian **Domain Name**, kemudian
+    click **Continue**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.014.jpeg)
 
@@ -85,7 +94,8 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.017.jpeg)
 
-12. Pada Bagian **Set Up users and password** sesuaikan **Password, Fullname dan Username** anda, kemudian click **Continue**.
+12. Pada Bagian **Set Up users and password** sesuaikan **Password, Fullname dan Username** anda, kemudian click *
+    *Continue**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.018.jpeg)
 
@@ -101,7 +111,8 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.024.jpeg)
 
-13. Pada bagain **Configure the clock** sesuaikan waktu yang ada di lokasi anda, kemudian click **Continue** dan tunggu hingga selesai.
+13. Pada bagain **Configure the clock** sesuaikan waktu yang ada di lokasi anda, kemudian click **Continue** dan tunggu
+    hingga selesai.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.025.jpeg)
 
@@ -109,7 +120,11 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.027.jpeg)
 
-14. Pilih **manual** untuk setting partisi, kemudian pilih **SCSI3 (0,0,0) (sda) - 21.5 GB ATA VBOX HARDDISK**. Pada bagian **Create new empty partition table on this device** pilih **Yes**. Setelah itu, pilih free space yang tersedia, kemudian **Create a new partition**. Untuk **Partition Size** masukkan sebesar **20 GB** tipenya **Primary**. Pastikan **Bootable flag** dalam keaadan **On**, kemudian pilih **Done setting up the partition**. Setelah selesai, ulangi step sebelumnya untuk setting partisi **/storage** sebesar **5 GB** dan **swap** sebesar **1,5 GB**.
+14. Pilih **manual** untuk setting partisi, kemudian pilih **SCSI3 (0,0,0) (sda) - 21.5 GB ATA VBOX HARDDISK**. Pada
+    bagian **Create new empty partition table on this device** pilih **Yes**. Setelah itu, pilih free space yang
+    tersedia, kemudian **Create a new partition**. Untuk **Partition Size** masukkan sebesar **20 GB** tipenya **Primary
+    **. Pastikan **Bootable flag** dalam keaadan **On**, kemudian pilih **Done setting up the partition**. Setelah
+    selesai, ulangi step sebelumnya untuk setting partisi **/storage** sebesar **5 GB** dan **swap** sebesar **1,5 GB**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.028.jpeg)
 
@@ -133,7 +148,9 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.037.jpeg)
 
-16. Untuk **Configure the package manager** pada bagian **Scan extra installation media** pilih **No**. Untuk **Debian archive mirror country** pilih Indonesia dan **Debian archive mirror** pilih **deb.debian.org.** Selanjutnya biarkan kosong untuk bagian **HTTP proxy information** dan tunggu hingga selesai.
+16. Untuk **Configure the package manager** pada bagian **Scan extra installation media** pilih **No**. Untuk **Debian
+    archive mirror country** pilih Indonesia dan **Debian archive mirror** pilih **deb.debian.org.** Selanjutnya biarkan
+    kosong untuk bagian **HTTP proxy information** dan tunggu hingga selesai.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.038.jpeg)
 
@@ -151,13 +168,16 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.044.jpeg)
 
-18. Untuk **Software selection** pilih **Debian desktop environment, GNOM** dan **Standart system utilities**, kemudian tunggu hingga selesai.
+18. Untuk **Software selection** pilih **Debian desktop environment, GNOM** dan **Standart system utilities**, kemudian
+    tunggu hingga selesai.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.045.jpeg)
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.046.jpeg)
 
-19. Pada bagian **Install the GRUB boot loader** untuk **Install the GRUB boot loader** pilih **Yes** dan **Device for boot loader** pilih **/dev/sda (ata-VBOX\_HARDDISK\_VBcf87d4ff-45acc2fe).** Click **Continue** dan tunggu hingga selesai.
+19. Pada bagian **Install the GRUB boot loader** untuk **Install the GRUB boot loader** pilih **Yes** dan **Device for
+    boot loader** pilih **/dev/sda (ata-VBOX\_HARDDISK\_VBcf87d4ff-45acc2fe).** Click **Continue** dan tunggu hingga
+    selesai.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.047.jpeg)
 
@@ -177,7 +197,7 @@
 
 ### 2. Buat ringkasan tentang perbedaan dari Debian 12 (bookworm) dengan Debian 11 (bullseye) : versi kernel, kebutuhan sistem, penerapan systemd dan perbedaan packagenya (dalam bentuk tabel) !
 
-   **Jawab:**
+**Jawab:**
 
 
 
@@ -227,12 +247,14 @@
 
 ### 3. Jelaskan fungsi dari file "/etc/groups" beserta formatnya! **Jawab:**
 
-   File /etc/group adalah file yang menyimpan informasi tentang grup pengguna pada sistem Linux.
+File /etc/group adalah file yang menyimpan informasi tentang grup pengguna pada sistem Linux.
 
 - Fungsi File /etc/group
     - File ini menyimpan informasi tentang kelompok atau grup pengguna di sistem Debian.
-    - Setiap grup memiliki ID unik yang terdaftar dalam file /etc/group, bersama dengan nama grup dan anggota-anggotanya.
-    - Grup digunakan untuk menetapkan akses ke berkas dan resource lainnya. Dengan grup, tugas dan hak istimewa tertentu dapat diberikan kepada sekelompok pengguna.
+    - Setiap grup memiliki ID unik yang terdaftar dalam file /etc/group, bersama dengan nama grup dan
+      anggota-anggotanya.
+    - Grup digunakan untuk menetapkan akses ke berkas dan resource lainnya. Dengan grup, tugas dan hak istimewa tertentu
+      dapat diberikan kepada sekelompok pengguna.
 - Format File /etc/group
 - "**/etc/group**" memuat format seb.
 
@@ -241,8 +263,10 @@ group1:x:20:user1,user2
 dimana informasi dari format tersebut adalah sebagai berikut : nama\_grup:sandi:ID\_grup:anggota1,anggota2
 
 - Penjelasan :
+
 1. nama\_grup: Nama grup/kelompok.
-1. Sandi: Kata sandi yang biasanya hanya berisi tanda garis (-), dan sebenarnya tidak digunakan dalam sistem Linux modern. (biasanya kosong dan jarang digunakan).
+1. Sandi: Kata sandi yang biasanya hanya berisi tanda garis (-), dan sebenarnya tidak digunakan dalam sistem Linux
+   modern. (biasanya kosong dan jarang digunakan).
 1. GID: ID grup (unik untuk setiap grup).
 1. daftar\_pengguna: Daftar pengguna yang termasuk dalam kelompok
 
@@ -250,23 +274,31 @@ dimana informasi dari format tersebut adalah sebagai berikut : nama\_grup:sandi:
 
 ### 4. Jelaskan perbedaan penggunaan perintah "su" dengan "su -"!
 
-   **Jawab:**
+**Jawab:**
 
-1. Perintah **su** ‘Switch User’ memungkinkan untuk masuk sebagai user lain dengan cara mengetikkan **su [nama pengguna]**. Perintah ini hanya memberikan hak akses user yang dituju, menggunakan lingkungan shell saat ini dan prompt shellnya tidak berubah. Apabila hanya mengetikkan perintah **su** saja, maka akan beralih ke root dengan menginputkan password terlebih dahulu seperti contoh dibawah ini.
+1. Perintah **su** ‘Switch User’ memungkinkan untuk masuk sebagai user lain dengan cara mengetikkan **su [nama pengguna]
+   **. Perintah ini hanya memberikan hak akses user yang dituju, menggunakan lingkungan shell saat ini dan prompt
+   shellnya tidak berubah. Apabila hanya mengetikkan perintah **su** saja, maka akan beralih ke root dengan menginputkan
+   password terlebih dahulu seperti contoh dibawah ini.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.053.png)
 
-2. Perintah **su -** memiliki fungsi yang sama dengan perintah **su**, tetapi dengan hak akses penuh root dan membuka shell baru dengan lingkungan default user yg dituju. Dibawah ini merupakan contoh penggunaan perintah **su -**.
+2. Perintah **su -** memiliki fungsi yang sama dengan perintah **su**, tetapi dengan hak akses penuh root dan membuka
+   shell baru dengan lingkungan default user yg dituju. Dibawah ini merupakan contoh penggunaan perintah **su -**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.054.png)
 
 ### 5. Jelaskan fungsi dari "sudo" !
 
-   **Jawab:**
+**Jawab:**
 
-Perintah **sudo** berfungsi untuk menjalankan perintah yang mengandalkan root untuk kebutuhan hak akses data. Sistem akan meminta inputan password, setiap user biasanya menjalankan perintah selama 15 menit / sesi.
+Perintah **sudo** berfungsi untuk menjalankan perintah yang mengandalkan root untuk kebutuhan hak akses data. Sistem
+akan meminta inputan password, setiap user biasanya menjalankan perintah selama 15 menit / sesi.
 
-### 6. Jelaskan langkah-langkah penambahan user anda sebagai user sudo ! Gunakan perintah "su -" lalu setelah masuk sebagai root, jalankan perintah "visudo". Tambahkan user anda di bawah user root pada bagian " # User privilege specification" **Jawab:**
+### 6. Jelaskan langkah-langkah penambahan user anda sebagai user sudo ! Gunakan perintah "su -" lalu setelah masuk sebagai root, jalankan perintah "visudo". Tambahkan user anda di bawah user root pada bagian " # User privilege specification"
+
+**Jawab:**
+
 1. Masuk sebagai root
     1. Buka terminal.
     1. Jalankan perintah su - untuk masuk sebagai root.
@@ -276,7 +308,8 @@ Perintah **sudo** berfungsi untuk menjalankan perintah yang mengandalkan root un
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.056.jpeg)
 
-2. Cari baris yang dimulai dengan # User privilege specification. Di bawah baris tersebut, tambahkan baris baru dengan format berikut:
+2. Cari baris yang dimulai dengan # User privilege specification. Di bawah baris tersebut, tambahkan baris baru dengan
+   format berikut:
 
    username ALL=(ALL) ALL (ganti username dengan nama user anda)
 
