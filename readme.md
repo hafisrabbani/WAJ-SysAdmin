@@ -1,21 +1,16 @@
-# Praktikum 1
-## SysAdmin
-
-**Dosen Pengampu:** Dr. Ferry Astika Saputra, S.T., M.Sc.
+# <h1 style="text-align: center;font-weight: bold">Praktikum 1<br>SysAdmin</h1>
+## <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
 
 ![Logo PENS](https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png)
 
-### Disusun Oleh:
-**Kelompok 3**
+### <h3 style="text-align: center;">Disusun Oleh : <br>Kelompok 3</h3>
 
-- Ade Hafis Rabbani (31225000001)
-- Nadila Aulya Salsabila Mirdianti (31225000002)
-- Gandi Rukmaning Ayu (31225000016)
+- **Ade Hafis Rabbani (31225000001)**
+- **Nadila Aulya Salsabila Mirdianti (31225000002)**
+- **Gandi Rukmaning Ayu (31225000016)**
 
-### Politeknik Elektronika Negeri Surabaya
-Departemen Teknik Informatika Dan Komputer
-Program Studi Teknik Informatika
-Tahun Ajaran 2023/2024
+### <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
+<hr><hr>
 
 
 ## Daftar Isi
