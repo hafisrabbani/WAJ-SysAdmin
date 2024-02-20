@@ -1,14 +1,17 @@
-# Tugas 1 - SysAdmin
+<h1 style="text-align: center;font-weight: bold">Praktikum 1<br>SysAdmin</h1>
+<h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
 
-### Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.
+![](https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png)
 
-### Kelompok : 3
+<h3 style="text-align: center;">Disusun Oleh : <br>Kelompok 3</h3>
 
-### Anggota :
-
-1. 31225000001 - Ade Hafis Rabbani
-2. 31225000002 - Nadila Aulya Salsabila Mirdianti
-3. 31225000016 - Gandi Rukmaning Ayu
+<ul style="text-align: center; list-style: none;">
+    <li style="font-weight: bold">Ade Hafis Rabbani (31225000001)</li>
+    <li style="font-weight: bold">Nadila Aulya Salsabila Mirdianti (31225000002)</li>
+    <li style="font-weight: bold">Gandi Rukmaning Ayu (31225000016)</li>
+</ul>
+<h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
+<hr><hr>
 
 ## Daftar Isi
 
@@ -20,7 +23,6 @@
 6. [Soal 6](#6-jelaskan-langkah-langkah-penambahan-user-anda-sebagai-user-sudo-gunakan-perintah-su-lalu-setelah-masuk-sebagai-root-jalankan-perintah-visudo-tambahkan-user-anda-di-bawah-user-root-pada-bagian--user-privilege-specification-)
 7. [Referensi](#referensi)
 
-# Laporan Tugas 1 - SysAdmin
 
 ### 1. Buatlah tulisan tentang langkah-langkah instalasi sistem operasi Debian. Anda bisa menggunakan aplikasi virtualisasi seperti VirtualBox, VMWare Player, Vmware Fusion (MAC), dls. Kebutuhan sistem adalah sebagai berikut :
 
