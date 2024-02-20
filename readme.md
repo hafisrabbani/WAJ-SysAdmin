@@ -41,7 +41,10 @@
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.003.jpeg)
 
-4. Bagian **Virtual Hard Disk** setting **Disk Size** sebesar **26,5 GB** yang nantinya akan dibagi menjadi 3 partisi, kemudian![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.004.jpeg) **Next**.
+4. Bagian **Virtual Hard Disk** setting **Disk Size** sebesar **26,5 GB** yang nantinya akan dibagi menjadi 3 partisi, kemudian!
+
+![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.004.jpeg) **Next**.
+
 5. Setelah selesai, pada bagian **Summary** click tombol **Finish**.
 
 ![](images/Aspose.Words.e04077e7-aee8-44ef-a14f-38cb7e48fb94.005.jpeg)
