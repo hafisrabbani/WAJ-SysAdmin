@@ -21,11 +21,11 @@
 ## Daftar Isi
 
 1. [Soal 1](#1-buatlah-tulisan-tentang-langkah-langkah-instalasi-sistem-operasi-debian-anda-bisa-menggunakan-aplikasi-virtualisasi-seperti-virtualbox-vmware-player-vmware-fusion-mac-dls-kebutuhan-sistem-adalah-sebagai-berikut-)
-2. [Soal 2](#2.-Buat-ringkasan-tentang-perbedaan-dari-Debian-12-(bookworm)-dengan-Debian-11-(bullseye)-:-versi-kernel,-kebutuhan-sistem,-penerapan-systemd-dan-perbedaan-packagenya-(dalam-bentuk-tabel)-!)
-3. [Soal 3](#3.-Jelaskan-fungsi-dari-file-"/etc/groups"-beserta-formatnya!)
-4. [Soal 4](#4.-Jelaskan-perbedaan-penggunaan-perintah-"su"-dengan-"su--"!)
-5. [Soal 5](#5.-Jelaskan-fungsi-dari-"sudo"-!)
-6. [Soal 6](#6.-Jelaskan-langkah-langkah-penambahan-user-anda-sebagai-user-sudo-!-Gunakan-perintah-"su--"-lalu-setelah-masuk-sebagai-root,-jalankan-perintah-"visudo".-Tambahkan-user-anda-di-bawah-user-root-pada-bagian-"-#-User-privilege-specification")
+2. [Soal 2](#2-buat-ringkasan-tentang-perbedaan-dari-debian-12-bookworm-dengan-debian-11-bullseye-versi-kernel-kebutuhan-sistem-penerapan-systemd-dan-perbedaan-packagenya-dalam-bentuk-tabel-)
+3. [Soal 3](#3-jelaskan-fungsi-dari-file-etcgroups-beserta-formatnya)
+4. [Soal 4](#4-jelaskan-perbedaan-penggunaan-perintah-su-dengan-su-)
+5. [Soal 5](#5-jelaskan-fungsi-dari-sudo-)
+6. [Soal 6](#6-jelaskan-langkah-langkah-penambahan-user-anda-sebagai-user-sudo-gunakan-perintah-su-lalu-setelah-masuk-sebagai-root-jalankan-perintah-visudo-tambahkan-user-anda-di-bawah-user-root-pada-bagian--user-privilege-specification-)
 7. [Referensi](#referensi)
 
 
