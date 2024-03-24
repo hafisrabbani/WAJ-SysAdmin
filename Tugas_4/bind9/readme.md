@@ -1,3 +1,5 @@
+# Langkah installasi Bind9 di Debian 12 Bookworm
+
 sudo apt install bind9 bind9-doc bind9-dnsutils 
 
 Konfigurasi IP sesuai dengan kebutuhan di network interface
