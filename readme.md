@@ -8,10 +8,10 @@
   <h3 align="center">Workshop Administrasi Jaringan</h3>
 
   <p align="center">
-    <strong>Nadila Aulya Salsabila Mirdianti</strong>
+    <strong>Ade Hafis Rabbani</strong>
     <br />
     <br />
-    <p>3122500002 · D3 IT A</p>
+    <p>3122500001 · D3 IT A</p>
   </p>
 </div>
 
