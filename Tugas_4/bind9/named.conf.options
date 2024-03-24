@@ -1,0 +1,41 @@
+options {
+        directory "/var/cache/bind";
+
+        // If there is a firewall between you and nameservers you want
+        // to talk to, you may need to fix the firewall to allow multiple
+        // ports to talk.  See http://www.kb.cert.org/vuls/id/800113
+
+        // If your ISP provided one or more IP addresses for stable 
+        // nameservers, you probably want to use them as forwarders.  
+        // Uncomment the following block, and insert the addresses replacing 
+        // the all-0's placeholder.
+
+        forwarders {
+                // Google DNS atau DNS ISP kalian
+                8.8.8.8;
+        };
+        
+        auth-nxdomain no;    # conform to RFC1035
+        //========================================================================
+        // If BIND logs error messages about the root key being expired,
+        // you will need to update your keys.  See https://www.isc.org/bind-keys
+        //========================================================================
+        dnssec-validation auto;
+        
+
+        listen-on-v6 { none; };
+        listen-on { 127.0.0.1; 192.168.3.10; };       
+        
+        // Do not transfer the zone information to the secondary DNS
+        allow-transfer { none; };
+        // Accept requests for internal network only
+        allow-query { yes; };
+
+        // Allow recursive queries to the local hosts
+        allow-recursion { yes; };
+
+        // Do not make public version of BIND
+        version none;   
+
+        
+};

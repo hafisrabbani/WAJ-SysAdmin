@@ -1,0 +1,15 @@
+$TTL    3600
+@       IN      SOA     ns.kelompok3.local. root.kelompok3.local. (
+                   2024031901           ; Serial
+                         3600           ; Refresh [1h]
+                          600           ; Retry   [10m]
+                        86400           ; Expire  [1d]
+                          600 )         ; Negative Cache TTL [1h]
+;
+@       IN      NS      ns.kelompok3.local.
+@       IN      MX      10 ns.kelompok3.local.
+
+ns      IN      A       192.168.3.10
+
+www     IN      CNAME   ns
+mail    IN      CNAME   ns
