@@ -5,7 +5,7 @@
 - Pilih no configuration
 
 ## 2. copy file main.cf
-```cp /etc/postfix/main.cf /etc/postfix/main.cf.bak```
+``` cp /usr/share/postfix/main.cf.dist /etc/postfix/main.cf```
 
 ## 3. Edit file main.cf
 ```code /etc/postfix/main.cf```
