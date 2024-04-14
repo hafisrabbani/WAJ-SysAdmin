@@ -121,3 +121,8 @@ restart postfix
 
 ## 10. Final Check
 ``` netstat -a| grep LISTEN```
+Pastikan Service MariaDB(MySQL), IMAP, POP3, DNS(domain), IMAPS, POP3S, SSH, Postfix (SMTP)
+
+## 11. Testing
+``` telnet mail.kelompok3.local 22 ``` (gunakan port yang sesuai dengan port ssh yang dibuka)
+    ![telnet](./img/6.png)
