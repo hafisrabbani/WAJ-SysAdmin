@@ -126,3 +126,10 @@ Pastikan Service MariaDB(MySQL), IMAP, POP3, DNS(domain), IMAPS, POP3S, SSH, Pos
 ## 11. Testing
 ``` telnet mail.kelompok3.local 22 ``` (gunakan port yang sesuai dengan port ssh yang dibuka)
     ![telnet](./img/6.png)
+
+## 12. Mencoba login dengan thunderbird
+- buka thunderbird
+- klik menu > pilih mail > pilih existing mail account
+- masukkan nama, email, password (dari user yang sudah dibuat sebelumnya)
+    ![thunderbird](./img/7.png)
+    ![thunderbird](./img/8.png)
