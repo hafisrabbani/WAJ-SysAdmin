@@ -21,5 +21,6 @@
 | 4     | [Konfigurasi phpmyadmin](./phpmyadmin/readme.md) |
 | 5     | [Konfigurasi mail server](./mail_server/readme.md) |
 | 6     | [Konfigurasi roundcube](./roundcube/readme.md) |
+| 7     | [Send Mail via Telnet](./email_telnet/readme.md) |
 
 ---
