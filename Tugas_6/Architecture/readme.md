@@ -16,10 +16,6 @@
    - **Network:** Mengelola koneksi jaringan untuk membuat permintaan ke server dan memproses tanggapan dari server.
    - **UI (User Interface):** Mengatur antarmuka pengguna browser, termasuk elemen-elemen seperti bilah alamat, tombol navigasi, tab, dan menu.
 
-## Kesimpulan
-
-
-
 
 ## Arsitektur Web Server (NGINX)
 ![nginx](./img/2.png)
