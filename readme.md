@@ -42,3 +42,4 @@ Repository untuk menyimpan project dan tugas di mata kuliah workshop administras
 -  <a href="Tugas_5">Laporan SysAdmin 5</a>
 -  <a href="Tugas_6">Laporan SysAdmin 6</a>
 -  <a href="Tugas_7">Laporan SysAdmin 7</a>
+-  <a href="Tugas_Akhir">Laporan Tugas Akhir 7</a>
